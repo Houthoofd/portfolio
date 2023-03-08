@@ -109,6 +109,17 @@ body > section#projects > .carousel > .content > .project > .link {
     padding: 10px 10px;
     border-radius: 6px;
 }
+body > section#projects > .carousel > .content > .project > .language {
+    display: grid;
+    grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+    gap: 5px;
+    text-align: center;
+}
+body > section#projects > .carousel > .content > .project > .language > .item {
+    background-color: white;
+    color: #4070f4;
+    border-radius: 3px;
+}
 body > section#projects > .carousel > .content > .project > .link > button {
     border: none;
     background-color: #ffffff;
