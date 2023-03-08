@@ -1,0 +1,56 @@
+
+            .item1 {
+              background-color: #01adb1;
+            }
+
+            #gradient-1{
+              background: linear-gradient(143deg , #3E9795 
+        ,  #01ADB1 
+      )
+            }
+
+          
+            .item2 {
+              background-color: #3e9795;
+            }
+
+            #gradient-2{
+              background: linear-gradient(143deg , #BB4B83 
+        ,  #3E9795 
+      )
+            }
+
+          
+            .item3 {
+              background-color: #bb4b83;
+            }
+
+            #gradient-3{
+              background: linear-gradient(143deg , #49D32E 
+        ,  #BB4B83 
+      )
+            }
+
+          
+            .item4 {
+              background-color: #49d32e;
+            }
+
+            #gradient-4{
+              background: linear-gradient(143deg , #70A4F3 
+        ,  #49D32E 
+      )
+            }
+
+          
+            .item5 {
+              background-color: #70a4f3;
+            }
+
+            #gradient-5{
+              background: linear-gradient(143deg , #01ADB1 
+        ,  #70A4F3 
+      )
+            }
+
+          
