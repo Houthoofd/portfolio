@@ -12,13 +12,12 @@
 </head>
 <body>
     <nav>
-        <ul class="links-header">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Experience</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+        <button class="active">Download CV</button>
+        <button>About me</button>
+        <button>Skills</button>
+        <button>projects</button>
+        <button>Experience</button>
+        <button>Contact me</button>
     </nav>
     <section id="about">
         <div class="presentation">
@@ -28,11 +27,71 @@
         <div class="banner">
             <img src="public/benoit.jpg">
         </div>
-        <div class="timeline"></div>
     </section>
     <section id="skills"></section>
     <section id="experience"></section>
-    <section id="projects"></section>
+    <section id="projects">
+        <div class="carousel">
+            <div class="panel-selection">
+                <button class="selected">Front-end</button>
+                <button>Back-end</button>
+                <button>Artificial intelligence</button>
+                <button>Security</button>
+            </div>
+            <div class="content">
+                <div class="project">
+                    <div class="title">
+                        <h5>Battleships</h5>
+                    </div>
+                    <div class="content">
+                        <img src="public/battleships.jpeg">
+                    </div>
+                    <div class="description">
+                        <h4>Description</h4>
+                        <p>Description</p>
+                    </div>
+                    <div class="link">
+                        <button>More informations</button>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="title">
+                        <h5>Battleships</h5>
+                    </div>
+                    <div class="content">
+                        <img src="public/battleships.jpeg">
+                    </div>
+                    <div class="description">
+                        <h4>Description</h4>
+                        <p>Description</p>
+                    </div>
+                    <div class="link">
+                        <button>More informations</button>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="title">
+                        <h5>Battleships</h5>
+                    </div>
+                    <div class="content">
+                        <img src="public/battleships.jpeg">
+                    </div>
+                    <div class="description">
+                        <h4>Description</h4>
+                        <p>Description</p>
+                    </div>
+                    <div class="link">
+                        <button>More informations</button>
+                    </div>
+                </div>
+            </div>
+            <div class="indicator">
+                <span class="cercle selected"></span>
+                <span class="cercle"></span>
+                <span class="cercle"></span>
+            </div>
+        </div>
+    </section>
     <section id="contact-me"></section>
 </body>
 <script src="functions.js"></script>
